@@ -71,11 +71,10 @@ Each directory contains:
 
 - Refiloe Radebe - Aspiring software engineer passionate about backend development and creating efficient applications.
 
-<img src="https://img.shields.io/badge/X-000000.svg?&style=plastic&logo=X&logoColor=white"/> <img src="https://img.shields.io/badge/Linkedin-0A66C2.svg?&style=plastic&logo=linkedin&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=plastic&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/X-000000.svg?&style=plastic&logo=X&logoColor=white"/> <img src="https://img.shields.io/badge/Linkedin-0A66C2.svg?&style=plastic&logo=linkedin&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=plastic&logo=github&logoColor=white"/>
 
 ## :trophy: Acknowledgements
 
 This repository is part of the ALX Africa program's backend development curriculum. Special thanks to the ALX Africa team for providing resources and support.
 
 For more details, visit the [ALX Africa website](https://www.alxafrica.com).
-
