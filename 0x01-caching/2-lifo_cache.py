@@ -8,7 +8,8 @@ from base_caching import BaseCaching
 
 class LIFOCache(BaseCaching):
     """
-    LIFOCache implements a caching system using Last In First Out (LIFO) policy.
+    LIFOCache implements a caching system using Last In First Out
+    (LIFO) policy.
     """
 
     def __init__(self):
@@ -19,7 +20,8 @@ class LIFOCache(BaseCaching):
 
     def put(self, key, item):
         """
-        Adds an item to the cache, discarding the most recent item if cache exceeds MAX_ITEMS.
+        Adds an item to the cache, discarding the most recent item if
+        cache exceeds MAX_ITEMS.
         Parameters:
             key (str): Key for the item.
             item (Any): The item to store.
