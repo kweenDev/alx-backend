@@ -9,7 +9,8 @@ from collections import OrderedDict
 
 class LRUCache(BaseCaching):
     """
-    LRUCache implements a caching system using Least Recently Used (LRU) policy.
+    LRUCache implements a caching system using Least Recently Used
+    (LRU) policy.
     """
 
     def __init__(self):
@@ -21,13 +22,16 @@ class LRUCache(BaseCaching):
 
     def put(self, key, item):
         """
-        Adds an item to the cache, discarding the least recently used item if cache exceeds MAX_ITEMS.
+        Adds an item to the cache, discarding the least recently used item if
+        cache exceeds MAX_ITEMS.
         Parameters:
             key (str): Key for the item.
             item (Any): The item to store.
         """
         if key is not None and item is not None:
-            if len(self.cache_data) >= BaseCaching.MAX_ITEMS and key not in self.cache_data:
+            if len(
+                self.cache_data
+            ) >= BaseCaching.MAX_ITEMS and key not in self.cache_data:
                 discarded_key, _ = self.cache_data.popitem(last=False)
                 print(f"DISCARD: {discarded_key}")
             if key in self.cache_data:
